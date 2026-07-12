@@ -258,6 +258,39 @@ type="video/mp4">
       <a class="btn" href="index.html#querencia">🏠 홈으로 돌아가기</a>
     </div>
   </section>
+        
+         <!-- 문의 -->
+<section id="contact" style="margin-top:28px">
+  <h2>코칭상담 신청 / 문의</h2>
+  <div class="card" id="contact-form">
+    <!-- 화면용 입력폼 -->
+    <form>
+      <label>이름
+        <input type="text" placeholder="홍길동" />
+      </label>
+      <label>이메일
+        <input type="email" placeholder="example@email.com" />
+      </label>
+      <label>핸드폰
+        <input type="tel" placeholder="010-1234-5678" />
+      </label>
+      <label>상담 주제(짧게)
+        <textarea rows="3" placeholder="간단히 작성해주세요"></textarea>
+      </label>
+      <label>원하시는 상담 방식
+        <select>
+          <option>온라인(Zoom)</option>
+          <option>대면</option>
+        </select>
+      </label>
+      <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;">
+        <button class="btn" type="button" onclick="window.open('https://forms.gle/29hsffbRkPZovwgFA','_blank')">상담 신청</button>
+        <a class="btn ghost" href="https://forms.gle/29hsffbRkPZovwgFA" target="_blank">구글폼 문의</a>
+      </div>
+    </form>
+    <p style="margin-top:8px;color:var(--muted)">※ 개인정보는 상담 목적 외 사용하지 않습니다.</p>
+  </div>
+</section>
 
 
   <footer>
